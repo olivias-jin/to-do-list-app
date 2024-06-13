@@ -47,3 +47,7 @@ $('input').each(function (i){
         console.log('Please fill out the' + inputName + 'field')
     }
 });
+
+//<img class='my-image' src='https://picsum.photos/200/300'>
+var imageSource =  $('.my-image').attr('src');
+console.log(imageSource); // this will log: https://picsum.photos/200/300

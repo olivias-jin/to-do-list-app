@@ -1,4 +1,8 @@
 //The user can add a new item to a list of items.
+let inputs = $('input');
+inputs.addClass('my-class');
+
+
 //The user can cross out an item from the list of items.
 
 

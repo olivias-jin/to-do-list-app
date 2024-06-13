@@ -49,5 +49,5 @@ $('input').each(function (i){
 });
 
 //<img class='my-image' src='https://picsum.photos/200/300'>
-var imageSource =  $('.my-image').attr('src');
+var imageSource =  document.querySelector('.my-image').getAttribute('src');
 console.log(imageSource); // this will log: https://picsum.photos/200/300

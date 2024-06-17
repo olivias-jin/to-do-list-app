@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
 .red { background: tomato; }
 .green { background: green; }
 
@@ -27,3 +29,50 @@
     display: none;
 }
 
+body {
+    font: normal normal 13px/16px "Open Sans", sans-serif;
+    background: #dfdfdf;
+    }
+#button{
+    display: inline-block;
+    background-color:#fc999b;
+    color:#ffffff;
+    border-radius: 5px;
+    text-align:center;
+    margin-top:2px;
+    padding: 5px 15px;
+    }
+
+    #button:hover{
+        cursor: pointer;
+        opacity: .8;}    
+
+        li:hover{
+            cursor: pointer;
+           }
+
+ li > cross {
+            background: none;
+            border: none;
+            float: right;
+            color: #025f70;
+            font-weight: 800;
+        }
+
+
+
+        ol {padding-left: 20px;}
+
+        ol li {padding: 5px;color:#000;}
+        
+        ol li:nth-child(even){background: #dfdfdf;}
+        
+        .strike{text-decoration: line-through;}        
+
+        form {
+            display: inline-block;
+            }
+            
+            input{
+            padding: 4px 15px 4px 5px;
+            }        
